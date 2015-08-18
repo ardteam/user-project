@@ -1,13 +1,13 @@
 {
-  "name" : "ardteam/admin-project",
-  "description" : "Admin Bundle",
+  "name" : "ardteam/user-project",
+  "description" : "User Bundle",
   "type" : "symfony-bundle",
   "authors" : [{
     "name" : "ardteam",
     "email" : "contact@ardteam.fr"
   }],
   "keywords" : [
-    "ardteam admin bundle"
+    "ardteam user bundle"
   ],
   "license" : [
     "MIT"
@@ -25,14 +25,12 @@
     "sensio/distribution-bundle": ">=3.0",
     "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
     "incenteev/composer-parameter-handler": "~2.0",
-    "almasaeed2010/adminlte": "2.*@dev",
-    "sonata-project/admin-bundle": "~2.3",
-    "sonata-project/doctrine-orm-admin-bundle": "~2.3"
+    "almasaeed2010/adminlte": "2.*@dev"
   },
-  "target-dir" : "AT/AdminBundle",
+  "target-dir" : "AT/UserBundle",
   "autoload" : {
     "psr-0" : {
-      "AT\\AdminBundle\\" : ""
+      "AT\\UserBundle\\" : ""
     }
   },
   "repositories" : [
