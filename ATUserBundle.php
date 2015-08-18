@@ -1,6 +1,6 @@
 <?php
 
-namespace ATUserBundle;
+namespace AT\UserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
