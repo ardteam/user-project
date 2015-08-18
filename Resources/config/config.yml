@@ -1,0 +1,16 @@
+at_user: ~
+doctrine:
+    dbal:
+        types:
+            json: Sonata\Doctrine\Types\JsonType
+
+stof_doctrine_extensions:
+  default_locale: fr_FR
+  orm:
+    default:
+      timestampable: true
+
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: ATUserBundle\Entity\User
