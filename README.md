@@ -6,7 +6,15 @@ USER Bundle by ArdTeam
 Require the bundle in your composer.json file:
 
 ```
-$ composer require ardteam/user-project --no-update
+// composer.json
+{
+    // ...
+    require:{
+        // ...
+        "ardteam/user-project" : "1.0.x@dev",
+        "friendsofsymfony/user-bundle": "@dev"
+    }
+}
 ```
 
 Register the bundle:
