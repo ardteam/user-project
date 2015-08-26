@@ -4,7 +4,7 @@
 
 Require the bundle in your composer.json file:
 
-``` json
+```
 // composer.json
 {
     // ...
@@ -51,7 +51,7 @@ doctrine:
 fos_user:
     db_driver: orm
     firewall_name: main
-    user_class: ATUserBundle\Entity\User
+    user_class: AT\UserBundle\Entity\User
 ```
 
 ``` yaml
@@ -103,5 +103,12 @@ Import FOSUser routes
 # Sécurité & Connexion
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+```
 
+## Usage
+
+Create a user. For example :
+
+```
+$ php app/console fos:user:create <user_name> <user_email> <user_password> --super-admin
 ```
