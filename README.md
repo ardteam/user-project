@@ -1,11 +1,10 @@
-USER Bundle by ArdTeam
-===
+# USER Bundle by ArdTeam
 
-# Installation
+## Installation
 
 Require the bundle in your composer.json file:
 
-```
+``` json
 // composer.json
 {
     // ...
@@ -39,7 +38,7 @@ Install the bundle:
 $ composer update
 ```
 
-# Configuration
+## Configuration
 
 ``` yaml
 # Add to app/config/config.yml
