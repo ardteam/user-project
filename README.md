@@ -18,7 +18,7 @@ Require the bundle in your composer.json file:
 
 Register the bundle:
 
-``` php
+```php
 // app/AppKernel.php
 
 public function registerBundles()
@@ -40,7 +40,7 @@ $ composer update
 
 ## Configuration
 
-``` yaml
+```yaml
 # Add to app/config/config.yml
 doctrine:
     dbal:
@@ -54,7 +54,7 @@ fos_user:
     user_class: AT\UserBundle\Entity\User
 ```
 
-``` yaml
+```yaml
 # Add to app/config/security.yml
 
 security
